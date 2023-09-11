@@ -5,11 +5,7 @@
   "projects": {
     "angular-everything": {
       "projectType": "application",
-      "schematics": {
-        "@schematics/angular:application": {
-          "style": "scss"
-        }
-      },
+      "schematics": {},
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -97,6 +93,11 @@
           }
         }
       }
+    }
+  },
+  "schematics": {
+    "@schematics/angular:component": {
+      "style": "scss"
     }
   },
   "cli": {
