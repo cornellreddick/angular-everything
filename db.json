@@ -1,0 +1,16 @@
+{
+  "items": [{
+    "title": "Example 1",
+    "content": "Example Content One",
+    "idExpanded": false
+  }, {
+    "title": "Example 2",
+    "content": "Example Content two",
+    "idExpanded": false
+  }, {
+    "title": "Example 3",
+    "content": "Example Content three",
+    "idExpanded": false
+  } 
+]
+}
