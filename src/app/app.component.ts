@@ -10,6 +10,7 @@ import { AccordionService } from './services/accordion.service';
 export class AppComponent implements OnInit {
   title = 'angular-everything';
   items: AccordionItem [] = [];
+  public progressValue = 25;
   
   constructor(private accordionService: AccordionService){
 

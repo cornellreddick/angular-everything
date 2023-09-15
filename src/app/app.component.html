@@ -8,8 +8,14 @@
 </ul>
 </app-toolbar>
 
-<main>
-<app-card [iconClasses]="'fa-solid fa-circle-info'" [title]="'Card'" [subTitle]="'Component'">
+<main>    
+<app-card [iconClasses]="'fa-solid fa-circle-info'" [title]="'Progress Bar'" [subTitle]="'Component'">
+   <app-progress-bar body [value]="progressValue"></app-progress-bar>
+
+   <button footer (click)="progressValue = 25;"></button>
+</app-card>
+
+<app-card [iconClasses]="'fa-solid fa-circle-info'" [title]="'Accordion'" [subTitle]="'Component'">
     <app-accordion body [items]="items" ></app-accordion>
 </app-card>
 
