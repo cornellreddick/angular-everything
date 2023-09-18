@@ -8,4 +8,10 @@ import { Component, Input } from '@angular/core';
 export class StarRatingComponent {
   @Input() public rating = 0;
 
+  public get fullStars(): number[]{
+    const totalFullStars = Math.floor(this.rating)
+
+    return Array(totalFullStars).fill(0);
+  }
+
 }
