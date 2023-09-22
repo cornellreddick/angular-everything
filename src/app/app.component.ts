@@ -16,9 +16,7 @@ export class AppComponent implements OnInit {
 
   }
   ngOnInit(): void {
-    this.accordionService.getItems().subscribe(data =>{
-      this.items = data;
-    })
+   
   }
 
 }

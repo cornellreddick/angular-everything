@@ -9,6 +9,9 @@ import { AccordionComponent } from './components/accordion/accordion.component';
 import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
 import { StarRatingComponent } from './components/star-rating/star-rating.component';
 import { TopOfPageComponent } from './components/top-of-page/top-of-page.component';
+import { RouterModule } from '@angular/router';
+import { ComponentDocumentationComponent } from './components/component-documentation/component-documentation.component';
+import { APP_ROUTES } from './routes/app.routes';
 
 @NgModule({
   declarations: [
@@ -18,11 +21,13 @@ import { TopOfPageComponent } from './components/top-of-page/top-of-page.compone
     AccordionComponent,
     ProgressBarComponent,
     StarRatingComponent,
-    TopOfPageComponent
+    TopOfPageComponent,
+    ComponentDocumentationComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+   RouterModule.forRoot(APP_ROUTES)
   ],
   providers: [],
   bootstrap: [AppComponent]
