@@ -7,7 +7,7 @@ import { PipesDocumentationComponent } from "../pipes/pipes-documentation/pipes-
 export const APP_ROUTES: Routes = [
     {path: '', component: ComponentDocumentationComponent},
     {path: 'directives', component: DirectivesDocumentationComponent},
-    {path: 'pipes', component: PipesDocumentationComponent},
-    {path: 'services', component: ServicesDocumentationComponent},
+    {path: 'pipes', loadChildren: () => import('../pipes/pipes-documentation/pipes.module').then((m) => m.PipesModule) },
+    {path: 'services', component: ServicesDocumentationComponent}
 
 ];

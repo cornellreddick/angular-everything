@@ -12,7 +12,6 @@ import { TopOfPageComponent } from './components/top-of-page/top-of-page.compone
 import { RouterModule } from '@angular/router';
 import { ComponentDocumentationComponent } from './components/component-documentation/component-documentation.component';
 import { APP_ROUTES } from './routes/app.routes';
-import { PipesDocumentationComponent } from './pipes/pipes-documentation/pipes-documentation.component';
 import { ServicesDocumentationComponent } from './services/services-documentation/services-documentation.component';
 import { DirectivesDocumentationComponent } from './directives/directives-documentation/directives-documentation.component';
 
@@ -26,7 +25,6 @@ import { DirectivesDocumentationComponent } from './directives/directives-docume
     StarRatingComponent,
     TopOfPageComponent,
     ComponentDocumentationComponent,
-    PipesDocumentationComponent,
     ServicesDocumentationComponent,
     DirectivesDocumentationComponent
   ],
