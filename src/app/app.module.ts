@@ -12,6 +12,7 @@ import { TopOfPageComponent } from './components/top-of-page/top-of-page.compone
 import { RouterModule } from '@angular/router';
 import { ComponentDocumentationComponent } from './components/component-documentation/component-documentation.component';
 import { APP_ROUTES } from './routes/app.routes';
+import { TruncatePipesComponent } from './components/truncate.pipes/truncate.pipes.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { APP_ROUTES } from './routes/app.routes';
     ProgressBarComponent,
     StarRatingComponent,
     TopOfPageComponent,
-    ComponentDocumentationComponent
+    ComponentDocumentationComponent,
+    TruncatePipesComponent
   ],
   imports: [
     BrowserModule,
