@@ -12,12 +12,7 @@ import { TopOfPageComponent } from './components/top-of-page/top-of-page.compone
 import { RouterModule } from '@angular/router';
 import { ComponentDocumentationComponent } from './components/component-documentation/component-documentation.component';
 import { APP_ROUTES } from './routes/app.routes';
-<<<<<<< HEAD
 import { TruncatePipesComponent } from './components/truncate.pipes/truncate.pipes.component';
-=======
-import { ServicesDocumentationComponent } from './services/services-documentation/services-documentation.component';
-import { DirectivesDocumentationComponent } from './directives/directives-documentation/directives-documentation.component';
->>>>>>> 831c4f839eca5d77817170edf0aeca6705ffb871
 
 @NgModule({
   declarations: [
@@ -29,12 +24,7 @@ import { DirectivesDocumentationComponent } from './directives/directives-docume
     StarRatingComponent,
     TopOfPageComponent,
     ComponentDocumentationComponent,
-<<<<<<< HEAD
     TruncatePipesComponent
-=======
-    ServicesDocumentationComponent,
-    DirectivesDocumentationComponent
->>>>>>> 831c4f839eca5d77817170edf0aeca6705ffb871
   ],
   imports: [
     BrowserModule,
