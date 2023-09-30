@@ -13,12 +13,12 @@ import { RouterModule } from '@angular/router';
 import { ComponentDocumentationComponent } from './components/component-documentation/component-documentation.component';
 import { APP_ROUTES } from './routes/app.routes';
 import { TruncatePipesComponent } from './components/truncate.pipes/truncate.pipes.component';
+import { SharedModule } from './components/shared/shared.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
-    CardComponent,
     AccordionComponent,
     ProgressBarComponent,
     StarRatingComponent,
@@ -28,6 +28,7 @@ import { TruncatePipesComponent } from './components/truncate.pipes/truncate.pip
   ],
   imports: [
     BrowserModule,
+    SharedModule,
     HttpClientModule,
    RouterModule.forRoot(APP_ROUTES)
   ],
