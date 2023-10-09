@@ -1,5 +1,13 @@
  <app-banner-cut-out [title]="'Pipes'" [imageUrl]="'assets/back-4.jpg'"></app-banner-cut-out>
  <hr>
+ <app-card [iconClasses]="'fas fa-info-circle'" [title]="'Credit Card Formatter'" [subTitle]="'Pipes'">
+  <div body>
+    <p>{{'1111222233334444' | creditCardFormater }}</p>
+    <p>{{'111111111111111111111111111111' | creditCardFormater }}</p>
+    <p>{{'a111222233334444' | creditCardFormater }}</p>
+  </div>
+</app-card>
+
  <app-card [iconClasses]="'fas fa-info-circle'" [title]="'Truncate'" [subTitle]="'Pipes'">
   <p body>
     {{'Build a pipe that truncates text that is longer than 100 characters by default, but is configurable. If it is longer than the maximum length append.' | appTruncate: 100 }}
