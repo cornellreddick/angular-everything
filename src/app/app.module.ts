@@ -14,7 +14,6 @@ import { ComponentDocumentationComponent } from './components/component-document
 import { APP_ROUTES } from './routes/app.routes';
 import { TruncatePipesComponent } from './components/truncate.pipes/truncate.pipes.component';
 import { SharedModule } from './components/shared/shared.module';
-
 @NgModule({
   declarations: [
     AppComponent,

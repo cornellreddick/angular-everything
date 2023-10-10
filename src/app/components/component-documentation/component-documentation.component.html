@@ -1,3 +1,15 @@
+<app-card [iconClasses]="'fa-solid fa-circle-info'" [title]="'Credit Card Input'" [subTitle]="'Component'">
+    <div body>
+    <app-credit-card-input 
+    [creditCardNumber]="'4321432143214321'" 
+    [isReadOnly]="false" ></app-credit-card-input> 
+    <app-credit-card-input 
+    [creditCardNumber]="'4321432143214321'" 
+    [isReadOnly]="true" >
+    </app-credit-card-input>
+    </div>
+</app-card>  
+
 <app-card [iconClasses]="'fa-solid fa-circle-info'" [title]="'Loading'" [subTitle]="'Component'">
     <app-loader body [isLoading]="false"> </app-loader>
 </app-card>  

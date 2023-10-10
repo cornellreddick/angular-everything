@@ -8,19 +8,20 @@ import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { SharedModule } from './shared/shared.module';
 import { StarRatingComponent } from './star-rating/star-rating.component';
 import { LoaderComponent } from './loader/loader.component';
+import { CreditCardInputComponent } from './credit-card-input/credit-card-input.component';
 
 
 @NgModule({
   declarations: [
     AccordionComponent,
     ProgressBarComponent,
-    StarRatingComponent
+    StarRatingComponent,
 
   ],
   imports: [
   CommonModule,
   SharedModule,
-  // FormsModule,
+ // FormsModule,
   // ReactiveFormsModule,
   // RouterModule.forChild(COMPONENTS_ROUTES)
   ]
